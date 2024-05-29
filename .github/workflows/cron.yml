@@ -1,8 +1,8 @@
-name: nightly build at 11 25
+name: nightly build at 11 29
 
 on:
   schedule:
-    - cron: '0 11 25 * *'
+    - cron: '29 11 * * *'
 
 jobs:
   nightly_build:
